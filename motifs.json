@@ -1,0 +1,326 @@
+{
+  "Act 1": [
+    {
+      "songTitle": "Alexander Hamilton",
+      "songLength": 357,
+      "motifs": [
+        "howd/0000/0018/wg", "axha", "inny"
+      ]
+    },
+    {
+      "songTitle": "Aaron Burr, Sir",
+      "songLength": 237,
+      "motifs": [
+        "1776", "abcp", "brsr"
+      ]
+    },
+    {
+      "songTitle": "My Shot",
+      "songLength": 533,
+      "motifs": [
+        "mysh", "whoa", "imag"
+      ]
+    },
+    {
+      "songTitle": "The Story of Tonight",
+      "songLength": 132,
+      "motifs": [
+        "stor"
+      ]
+    },
+    {
+      "songTitle": "The Schuyler Sisters",
+      "songLength": 307,
+      "motifs": [
+        "schu", "angl", "elza", "look"
+      ]
+    },
+    {
+      "songTitle": "Farmer Refuted",
+      "songLength": 153,
+      "motifs": [
+      ]
+    },
+    {
+      "songTitle": "You'll Be Back",
+      "songLength": 328,
+      "motifs": [
+        "geog"
+      ]
+    },
+    {
+      "songTitle": "Right Hand Man",
+      "songLength": 522,
+      "motifs": [
+        "howd", "hctg", "rise", "wash", "brsr", "whoa", "mysh", "boom"
+      ]
+    },
+    {
+      "songTitle": "A Winter's Ball",
+      "songLength": 110,
+      "motifs": [
+        "howd", "1776"
+      ]
+    },
+    {
+      "songTitle": "Helpless",
+      "songLength": 410,
+      "motifs": [
+        "help", "inny"
+      ]
+    },
+    {
+      "songTitle": "Satisfied",
+      "songLength": 529,
+      "motifs": [
+        "sats", "angt", "axha", "help", "elza", "isis"
+      ]
+    },
+    {
+      "songTitle": "The Story of Tonight - Reprise",
+      "songLength": 156,
+      "motifs": [
+        "stor", "abcp", "brsr", "tlsm"
+      ]
+    },
+    {
+      "songTitle": "Wait For It",
+      "songLength": 314,
+      "motifs": [
+        "abcp", "wait"
+      ]
+    },
+    {
+      "songTitle": "Stay Alive",
+      "songLength": 239,
+      "motifs": [
+        "stay", "wash", "boom", "mysh"
+      ]
+    },
+    {
+      "songTitle": "Ten Duel Commandments",
+      "songLength": 147,
+      "motifs": [
+        "1234", "brsr"
+      ]
+    },
+    {
+      "songTitle": "Meet Me Inside",
+      "songLength": 124,
+      "motifs": [
+        "boom", "brsr", "hctg"
+      ]
+    },
+    {
+      "songTitle": "That Would Be Enough",
+      "songLength": 258,
+      "motifs": [
+        "look", "twbe"
+      ]
+    },
+    {
+      "songTitle": "Guns and Ships",
+      "songLength": 208,
+      "motifs": [
+        "howd", "axha"
+      ]
+    },
+    {
+      "songTitle": "History Has Its Eyes On You",
+      "songLength": 137,
+      "motifs": [
+        "hist", "whoa", "wlwd"
+      ]
+    },
+    {
+      "songTitle": "Yorktown (The World Turned Upside Down)",
+      "songLength": 403,
+      "motifs": [
+        "1776", "york", "mysh", "imag"
+      ]
+    },
+    {
+      "songTitle": "What Comes Next?",
+      "songLength": 139,
+      "motifs": [
+        "geog"
+      ]
+    },
+    {
+      "songTitle": "Dear Theodosia",
+      "songLength": 304,
+      "motifs": [
+        "drth", "buaa"
+      ]
+    },
+    {
+      "songTitle": "Non-Stop",
+      "songLength": 625,
+      "motifs": [
+        "abcp", "nons", "brsr", "wait", "angt", "angl", "twbe", "axha", "hist", "look", "help", "sats", "mysh" 
+      ]
+    }
+  ],
+  "Act 2": [
+      {
+        "songTitle": "What'd I Miss",
+        "songLength": 357,
+        "motifs": [
+          "1776", "whoa", "howd", "home"
+        ]
+      },
+      {
+        "songTitle": "Cabinet Battle #1",
+        "songLength": 335,
+        "motifs": [
+          "tndc", "wash", 
+        ]
+      },
+      {
+        "songTitle": "Take A Break",
+        "songLength": 446,
+        "motifs": [
+          "1234", "angt", "mnip", "angl", "elza", "schu", "look"
+        ]
+      },
+      {
+        "songTitle": "Say No To This",
+        "songLength": 402,
+        "motifs": [
+          "summ"
+        ]
+      },
+      {
+        "songTitle": "The Room Where It Happens",
+        "songLength": 518,
+        "motifs": [
+          "axha", "wait", "iysf", "room"
+        ]
+      },
+      {
+        "songTitle": "Schuyler Defeated",
+        "songLength": 104,
+        "motifs": [
+          "schu"
+        ]
+      },
+      {
+        "songTitle": "Cabinet Battle #2",
+        "songLength": 223,
+        "motifs": [
+        ]
+      },
+      {
+        "songTitle": "Washington On Your Side",
+        "songLength": 301,
+        "motifs": [
+          "woys"
+        ]
+      },
+      {
+        "songTitle": "One Last Time",
+        "songLength": 456,
+        "motifs": [
+          "wash", "stor", "home", "hist"
+        ]
+      },
+      {
+        "songTitle": "I Know Him",
+        "songLength": 138,
+        "motifs": [
+          "geog"
+        ]
+      },
+      {
+        "songTitle": "The Adams Administration",
+        "songLength": 055,
+        "motifs": [
+          "howd"
+        ]
+      },
+      {
+        "songTitle": "We Know",
+        "songLength": 222,
+        "motifs": [
+          "room", "dear", "what"
+        ]
+      },
+      {
+        "songTitle": "Hurricane",
+        "songLength": 224,
+        "motifs": [
+          "york", "wait", "hist"
+        ]
+      },
+      {
+        "songTitle": "The Reynolds Pamphlet",
+        "songLength": 208,
+        "motifs": [
+          "axha", "angt", "angl", "sats", "isis", "burn"
+        ]
+      },
+      {
+        "songTitle": "Burn",
+        "songLength": 345,
+        "motifs": [
+          "burn", "narr"
+        ]
+      },
+      {
+        "songTitle": "Blow Us All Away",
+        "songLength": 254,
+        "motifs": [
+          "only", "buaa", "tndc", "harp", "mnip", "boom", "1234"
+        ]
+      },
+      {
+        "songTitle": "Stay Alive - Reprise",
+        "songLength": 152,
+        "motifs": [
+          "stay", "1234"
+        ]
+      },
+      {
+        "songTitle": "It's Quiet Uptown",
+        "songLength": 430,
+        "motifs": [
+          "iqut", "drth", "twbe"
+        ]
+      },
+      {
+        "songTitle": "The Election of 1800",
+        "songLength": 358,
+        "motifs": [
+          "1776", "woys", "tlsm", "iqut", "abcp", "brsr"
+        ]
+      },
+      {
+        "songTitle": "Your Obedient Servant",
+        "songLength": 230,
+        "motifs": [
+          "howd", "room"
+        ]
+      },
+      {
+        "songTitle": "Best of Wives and Best of Women",
+        "songLength": 048,
+        "motifs": [
+          "iqut", "nons", "twbe"
+        ]
+      },
+      {
+        "songTitle": "The World Was Wide Enough",
+        "songLength": 502,
+        "motifs": [
+          "1234", "tndc", "whoa", "imag", "mysh", "rise", "onel", "elza", "stor", "abcp", "angl", "wait"
+        ]
+      },
+      {
+        "songTitle": "Who Lives, Who Dies, Who Tells Your Story",
+        "songLength": 337,
+        "motifs": [
+          "wlwd", "elza", "narr", "nons", "angl", "angt"
+        ]
+      }
+  ]
+}
