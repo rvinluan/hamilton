@@ -1,326 +1,430 @@
-{
-  "Act 1": [
+[
+  {
+    "act": 1,
+    "songs": [
     {
-      "songTitle": "Alexander Hamilton",
-      "songLength": 357,
+      "title": "Alexander Hamilton",
+      "length": 357,
+      "youtube": "yIl1OIGzuDg",
       "motifs": [
-        "howd/0000/0018/wg", "axha", "inny"
+        {
+          "id": "howd",
+          "start": 0,
+          "end": 18,
+          "layer": "fg"
+        },
+        {
+          "id": "axha",
+          "start": 118,
+          "end": 133,
+          "layer": "fg"
+        },
+        {
+          "id": "1776",
+          "start": 35,
+          "end": 100,
+          "layer": "bg"
+        },
+        {
+          "id": "inny",
+          "start": 228,
+          "end": 244,
+          "layer": "fg"
+        }
       ]
     },
     {
-      "songTitle": "Aaron Burr, Sir",
-      "songLength": 237,
+      "title": "Aaron Burr, Sir",
+      "length": 237,
+      "youtube": "sEH9I_oJfqY",
       "motifs": [
-        "1776", "abcp", "brsr"
-      ]
+          {
+            "id": "1776",
+            "start": 6,
+            "end": 14,
+            "layer": "fg"
+          },
+          {
+            "id": "brsr",
+            "start": 14,
+            "end": 37,
+            "layer": "fg"
+          },
+          {
+            "id": "abcp",
+            "start": 0,
+            "end": 130,
+            "layer": "bg"
+          },
+          {
+            "id": "tlsm",
+            "start": 101,
+            "end": 113,
+            "layer": "fg"
+          },
+          {
+            "id": "iysfn",
+            "start": 227,
+            "end": 230,
+            "layer": "fg"
+          }
+        ]
     },
     {
-      "songTitle": "My Shot",
-      "songLength": 533,
+      "title": "My Shot",
+      "length": 533,
+      "youtube": "VK4Wk_8PbcI",
       "motifs": [
         "mysh", "whoa", "imag"
       ]
     },
     {
-      "songTitle": "The Story of Tonight",
-      "songLength": 132,
+      "title": "The Story of Tonight",
+      "length": 132,
+      "youtube": "GIVOjsPrnOs",
       "motifs": [
         "stor"
       ]
     },
     {
-      "songTitle": "The Schuyler Sisters",
-      "songLength": 307,
+      "title": "The Schuyler Sisters",
+      "length": 307,
+      "youtube": "xZdrzOdd8Kw",
       "motifs": [
         "schu", "angl", "elza", "look"
       ]
     },
     {
-      "songTitle": "Farmer Refuted",
-      "songLength": 153,
+      "title": "Farmer Refuted",
+      "length": 153,
+      "youtube": "S6GmhYKfAZU",
       "motifs": [
       ]
     },
     {
-      "songTitle": "You'll Be Back",
-      "songLength": 328,
+      "title": "You'll Be Back",
+      "length": 328,
+      "youtube": "fdxLohjwhoQ",
       "motifs": [
         "geog"
       ]
     },
     {
-      "songTitle": "Right Hand Man",
-      "songLength": 522,
+      "title": "Right Hand Man",
+      "length": 522,
+      "youtube": "KP5-G2foWK4",
       "motifs": [
         "howd", "hctg", "rise", "wash", "brsr", "whoa", "mysh", "boom"
       ]
     },
     {
-      "songTitle": "A Winter's Ball",
-      "songLength": 110,
+      "title": "A Winter's Ball",
+      "length": 110,
+      "youtube": "ksff5uvSViU",
       "motifs": [
         "howd", "1776"
       ]
     },
     {
-      "songTitle": "Helpless",
-      "songLength": 410,
+      "title": "Helpless",
+      "length": 410,
+      "youtube": "30N4rPZuUMc",
       "motifs": [
         "help", "inny"
       ]
     },
     {
-      "songTitle": "Satisfied",
-      "songLength": 529,
+      "title": "Satisfied",
+      "length": 529,
+      "youtube": "f0EqxnWxlvY",
       "motifs": [
         "sats", "angt", "axha", "help", "elza", "isis"
       ]
     },
     {
-      "songTitle": "The Story of Tonight - Reprise",
-      "songLength": 156,
+      "title": "The Story of Tonight - Reprise",
+      "length": 156,
+      "youtube": "N_jRRbuVD1w",
       "motifs": [
         "stor", "abcp", "brsr", "tlsm"
       ]
     },
     {
-      "songTitle": "Wait For It",
-      "songLength": 314,
+      "title": "Wait For It",
+      "length": 314,
+      "youtube": "ReTP6x_sDiM",
       "motifs": [
         "abcp", "wait"
       ]
     },
     {
-      "songTitle": "Stay Alive",
-      "songLength": 239,
+      "title": "Stay Alive",
+      "length": 239,
+      "youtube": "YX6-9OnHRCc",
       "motifs": [
         "stay", "wash", "boom", "mysh"
       ]
     },
     {
-      "songTitle": "Ten Duel Commandments",
-      "songLength": 147,
+      "title": "Ten Duel Commandments",
+      "length": 147,
+      "youtube": "dS79uxNFoHw",
       "motifs": [
         "1234", "brsr"
       ]
     },
     {
-      "songTitle": "Meet Me Inside",
-      "songLength": 124,
+      "title": "Meet Me Inside",
+      "length": 124,
+      "youtube": "pn3Nmpk3Px0",
       "motifs": [
         "boom", "brsr", "hctg"
       ]
     },
     {
-      "songTitle": "That Would Be Enough",
-      "songLength": 258,
+      "title": "That Would Be Enough",
+      "length": 258,
+      "youtube": "-xDlEXO4UJs",
       "motifs": [
         "look", "twbe"
       ]
     },
     {
-      "songTitle": "Guns and Ships",
-      "songLength": 208,
+      "title": "Guns and Ships",
+      "length": 208,
+      "youtube": "Ovje92D742s",
       "motifs": [
         "howd", "axha"
       ]
     },
     {
-      "songTitle": "History Has Its Eyes On You",
-      "songLength": 137,
+      "title": "History Has Its Eyes On You",
+      "length": 137,
+      "youtube": "wTQxv3jzKT0",
       "motifs": [
         "hist", "whoa", "wlwd"
       ]
     },
     {
-      "songTitle": "Yorktown (The World Turned Upside Down)",
-      "songLength": 403,
+      "title": "Yorktown (The World Turned Upside Down)",
+      "length": 403,
+      "youtube": "NpsuEcKW8ZE",
       "motifs": [
         "1776", "york", "mysh", "imag"
       ]
     },
     {
-      "songTitle": "What Comes Next?",
-      "songLength": 139,
+      "title": "What Comes Next?",
+      "length": 139,
+      "youtube": "pLaCCgqJ07Y",
       "motifs": [
         "geog"
       ]
     },
     {
-      "songTitle": "Dear Theodosia",
-      "songLength": 304,
+      "title": "Dear Theodosia",
+      "length": 304,
+      "youtube": "vjMN6zSVFQg",
       "motifs": [
         "drth", "buaa"
       ]
     },
     {
-      "songTitle": "Non-Stop",
-      "songLength": 625,
+      "title": "Non-Stop",
+      "length": 625,
+      "youtube": "8aefuWGmKTY",
       "motifs": [
         "abcp", "nons", "brsr", "wait", "angt", "angl", "twbe", "axha", "hist", "look", "help", "sats", "mysh" 
       ]
     }
-  ],
-  "Act 2": [
+    ]
+  },
+  {
+    "act": 2,
+    "songs": [
       {
-        "songTitle": "What'd I Miss",
-        "songLength": 357,
+        "title": "What'd I Miss",
+        "length": 357,
+        "youtube": "6FPEwPpSyVE",
         "motifs": [
           "1776", "whoa", "howd", "home"
         ]
       },
       {
-        "songTitle": "Cabinet Battle #1",
-        "songLength": 335,
+        "title": "Cabinet Battle #1",
+        "length": 335,
+        "youtube": "mBmTdJ4XTfs",
         "motifs": [
-          "tndc", "wash", 
+          "tndc", "wash"
         ]
       },
       {
-        "songTitle": "Take A Break",
-        "songLength": 446,
+        "title": "Take A Break",
+        "length": 446,
+        "youtube": "RZCkko_t_rs",
         "motifs": [
           "1234", "angt", "mnip", "angl", "elza", "schu", "look"
         ]
       },
       {
-        "songTitle": "Say No To This",
-        "songLength": 402,
+        "title": "Say No To This",
+        "length": 402,
+        "youtube": "3tMf9sx7OUA",
         "motifs": [
           "summ"
         ]
       },
       {
-        "songTitle": "The Room Where It Happens",
-        "songLength": 518,
+        "title": "The Room Where It Happens",
+        "length": 518,
+        "youtube": "IWdBOsk8D7A",
         "motifs": [
           "axha", "wait", "iysf", "room"
         ]
       },
       {
-        "songTitle": "Schuyler Defeated",
-        "songLength": 104,
+        "title": "Schuyler Defeated",
+        "length": 104,
+        "youtube": "dPoPpTZ_RRE",
         "motifs": [
           "schu"
         ]
       },
       {
-        "songTitle": "Cabinet Battle #2",
-        "songLength": 223,
+        "title": "Cabinet Battle #2",
+        "length": 223,
+        "youtube": "B0HZUatZtXI",
         "motifs": [
         ]
       },
       {
-        "songTitle": "Washington On Your Side",
-        "songLength": 301,
+        "title": "Washington On Your Side",
+        "length": 301,
+        "youtube": "7NSFesJe1ok",
         "motifs": [
           "woys"
         ]
       },
       {
-        "songTitle": "One Last Time",
-        "songLength": 456,
+        "title": "One Last Time",
+        "length": 456,
+        "youtube": "L2TVIg_iNFI",
         "motifs": [
           "wash", "stor", "home", "hist"
         ]
       },
       {
-        "songTitle": "I Know Him",
-        "songLength": 138,
+        "title": "I Know Him",
+        "length": 138,
+        "youtube": "wJzSAZjN3Bk",
         "motifs": [
           "geog"
         ]
       },
       {
-        "songTitle": "The Adams Administration",
-        "songLength": 055,
+        "title": "The Adams Administration",
+        "length": 55,
+        "youtube": "hbY6UQCk0SM",
         "motifs": [
           "howd"
         ]
       },
       {
-        "songTitle": "We Know",
-        "songLength": 222,
+        "title": "We Know",
+        "length": 222,
+        "youtube": "MvmDAb_TVck",
         "motifs": [
           "room", "dear", "what"
         ]
       },
       {
-        "songTitle": "Hurricane",
-        "songLength": 224,
+        "title": "Hurricane",
+        "length": 224,
+        "youtube": "lv1oR_k5f3w",
         "motifs": [
           "york", "wait", "hist"
         ]
       },
       {
-        "songTitle": "The Reynolds Pamphlet",
-        "songLength": 208,
+        "title": "The Reynolds Pamphlet",
+        "length": 208,
+        "youtube": "kOSCOw50kos",
         "motifs": [
           "axha", "angt", "angl", "sats", "isis", "burn"
         ]
       },
       {
-        "songTitle": "Burn",
-        "songLength": 345,
+        "title": "Burn",
+        "length": 345,
+        "youtube": "1CFOuGqBSEE",
         "motifs": [
           "burn", "narr"
         ]
       },
       {
-        "songTitle": "Blow Us All Away",
-        "songLength": 254,
+        "title": "Blow Us All Away",
+        "length": 254,
+        "youtube": "YdIh1uSkVhc",
         "motifs": [
           "only", "buaa", "tndc", "harp", "mnip", "boom", "1234"
         ]
       },
       {
-        "songTitle": "Stay Alive - Reprise",
-        "songLength": 152,
+        "title": "Stay Alive - Reprise",
+        "length": 152,
+        "youtube": "FKoZ8jopBdo",
         "motifs": [
           "stay", "1234"
         ]
       },
       {
-        "songTitle": "It's Quiet Uptown",
-        "songLength": 430,
+        "title": "It's Quiet Uptown",
+        "length": 430,
+        "youtube": "rrsmUzqweBI",
         "motifs": [
           "iqut", "drth", "twbe"
         ]
       },
       {
-        "songTitle": "The Election of 1800",
-        "songLength": 358,
+        "title": "The Election of 1800",
+        "length": 358,
+        "youtube": "AUOfpIPztKM",
         "motifs": [
           "1776", "woys", "tlsm", "iqut", "abcp", "brsr"
         ]
       },
       {
-        "songTitle": "Your Obedient Servant",
-        "songLength": 230,
+        "title": "Your Obedient Servant",
+        "length": 230,
+        "youtube": "z1NmdB_kXO8",
         "motifs": [
           "howd", "room"
         ]
       },
       {
-        "songTitle": "Best of Wives and Best of Women",
-        "songLength": 048,
+        "title": "Best of Wives and Best of Women",
+        "length": 48,
+        "youtube": "AcP291GQnFk",
         "motifs": [
           "iqut", "nons", "twbe"
         ]
       },
       {
-        "songTitle": "The World Was Wide Enough",
-        "songLength": 502,
+        "title": "The World Was Wide Enough",
+        "length": 502,
+        "youtube": "o51rzRr1GJY",
         "motifs": [
           "1234", "tndc", "whoa", "imag", "mysh", "rise", "onel", "elza", "stor", "abcp", "angl", "wait"
         ]
       },
       {
-        "songTitle": "Who Lives, Who Dies, Who Tells Your Story",
-        "songLength": 337,
+        "title": "Who Lives, Who Dies, Who Tells Your Story",
+        "length": 337,
+        "youtube": "Jyg3Lo_-Ep8",
         "motifs": [
           "wlwd", "elza", "narr", "nons", "angl", "angt"
         ]
       }
-  ]
-}
+    ]
+  }
+]

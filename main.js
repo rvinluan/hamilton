@@ -1,57 +1,90 @@
-var canvas = $("#test")[0];
-var renderer = new Vex.Flow.Renderer(canvas,
-  Vex.Flow.Renderer.Backends.CANVAS);
+//from: http://stackoverflow.com/questions/14388452/how-do-i-load-a-json-object-from-a-file-with-ajax
+function fetchJSONFile(path, callback) {
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === 4) {
+            if (httpRequest.status === 200) {
+                var data = JSON.parse(httpRequest.responseText);
+                if (callback) callback(data);
+            }
+        }
+    };
+    httpRequest.open('GET', path);
+    httpRequest.send(); 
+}
 
-var ctx = renderer.getContext();
-var stave = new Vex.Flow.Stave(10, 0, 400);
+// this requests the file and executes a callback with the parsed result once
+//   it is available
+fetchJSONFile('motifs.json', function(data){
+    // do something with your data
+    init(data);
+});
 
-// Add a treble clef
-stave.addClef("treble");
-stave.setContext(ctx).draw();
+//translate timecode from MM:SS to S
+function timecode(orig) {
+    var str = orig.toString();
+    var n;
+    if(str.length > 2) {
+        var sec = str.slice(-2);
+        var min = str.slice(0, -2);
+        sec = parseInt(sec, 10);
+        min = parseInt(min, 10);
+        return min * 60 + sec;
+    } else {
+        return orig;
+    }
+}
 
-function newAnnotation(text) {
-  return (
-      new Vex.Flow.Annotation(text)).
-      setVerticalJustification(Vex.Flow.Annotation.VerticalJustify.BOTTOM);
-  }
+//pad single digit indexes (1 -> 01)
+//returns a string
+function pad(num) {
+    return ("00" + num).slice(-2);
+}
 
-var notes = [
-  new Vex.Flow.StaveNote({ keys: ["eb/5"], duration: "8" })
-    .addAccidental(0, new Vex.Flow.Accidental("b"))
-    .addAnnotation(0, newAnnotation("Al")),
-  new Vex.Flow.StaveNote({ keys: ["d/5"], duration: "8" })
-    .addAnnotation(0, newAnnotation("-ex"))
-];
+/*
+/  acts
+*/
 
-var notes2 = [
-new Vex.Flow.StaveNote({ keys: ["eb/5"], duration: "8" })
-  .addAccidental(0, new Vex.Flow.Accidental("b"))
-  .addAnnotation(0, newAnnotation("-and")),
-new Vex.Flow.StaveNote({ keys: ["d/5"], duration: "8" })
-  .addAnnotation(0, newAnnotation("-er"))];
+var songHeight = 60;
+var pxScale = d3.scaleLinear()
+    .domain([0, 385]) //longest song, Non-Stop, clocks in at 6:25 (385 seconds)
+    .range([0, 1000]) //that should be 1000px I guess? this is arbitrary for now
 
-var notes3 = [
-new Vex.Flow.StaveNote({ keys: ["eb/5"], duration: "8" })
-  .addAccidental(0, new Vex.Flow.Accidental("b"))
-  .addAnnotation(0, newAnnotation("Ham")),
-new Vex.Flow.StaveNote({ keys: ["d/5"], duration: "8" })
-  .addAnnotation(0, newAnnotation("-il"))];
+function init(motifs) {
+    var container = d3.select("#container")
+        .attr("width", 1000)
 
-var notes4 = [
-new Vex.Flow.StaveNote({ keys: ["c/5"], duration: "q" })
-  .addAnnotation(0, newAnnotation("-ton"))
-];
+    var acts = container.selectAll("g.act")
+        .data(motifs)
+        .enter().append("g")
+        .attr("class", "act")
 
-var beam = new Vex.Flow.Beam(notes);
-var beam2 = new Vex.Flow.Beam(notes2);
-var beam3 = new Vex.Flow.Beam(notes3);
+    var song = acts.selectAll(".song")
+        .data(function (d) { return d.songs })
+        .enter().append("g")
+        .attr("class", "song")
+        .attr("transform", function(d, i) { return "translate(0, " + i * songHeight + ")"; })
 
-var all_notes = notes.concat(notes2).concat(notes3).concat(notes4);
+    var label = song.append("text")
+        .attr("class", "label")
+        .attr("color", "black")
+        .attr("x", 0)
+        .attr("y", songHeight/2)
+        .text(function (d, i) { return pad(i+1) + " " + d.title })
 
-// Helper function to justify and draw a 4/4 voice
-Vex.Flow.Formatter.FormatAndDraw(ctx, stave, all_notes);
+    var music = song.append("rect")
+        .attr("class", "music")
+        .attr("fill", "#eeeeee")
+        .attr("x", 250)
+        .attr("width", (d) => pxScale( timecode(d.length) ))
+        .attr("height", 40)
 
-// Render beams
-beam.setContext(ctx).draw();
-beam2.setContext(ctx).draw();
-beam3.setContext(ctx).draw();
+    var motif = song.selectAll(".motif")
+        .data(d => d.motifs)
+        .enter().append("rect")
+        .attr("fill", "rgba(255,0,0,0.3)")
+        .attr("width", d => pxScale(timecode(d.end) - timecode(d.start)))
+        .attr("height", 40)
+        .attr("x", d => 250 + pxScale(timecode(d.start)))
+
+}
